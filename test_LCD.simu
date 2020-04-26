@@ -1,0 +1,57 @@
+<circuit speed="1000000" type="simulide_0.1" animate="0" reactStep="50" noLinStep="10" noLinAcc="5">
+ 
+KeyPad-3: 
+<item Cols="3" labelx="-16" Show_id="false" objectName="KeyPad-3" valLabely="0" Rows="4" y="-244" x="-524" Key_Labels="123456789*0#" hflip="1" vflip="1" labelrot="0" rotation="0" id="KeyPad-3" itemtype="KeyPad" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Hd44780-2: 
+<item valLabely="0" valLabRot="0" valLabelx="0" hflip="1" itemtype="Hd44780" labelrot="0" id="Hd44780-2" Cols="20" rotation="0" y="-460" labely="-115" x="-540" objectName="Hd44780-2" Show_id="true" vflip="1" Rows="4" labelx="68"/>
+ 
+Arduino Uno-1: 
+<item labelx="0" Show_id="true" objectName="Arduino Uno-1" Ser_Port="false" Ser_Monitor="true" Program="test_LCD.ino.standard.hex" valLabely="0" y="-404" x="-364" hflip="1" vflip="1" labelrot="0" rotation="0" id="Arduino Uno-1" itemtype="Arduino" valLabRot="0" Mhz="16" labely="-20" valLabelx="0"/>
+ 
+Connector-4: 
+<item endpinid="Arduino Uno-1-PB4" labelx="-16" Show_id="false" pointList="-524,-452,-524,-284,-356,-284" objectName="Connector-4" startpinid="Hd44780-2-PinRS" enodeid="Circ_eNode-5" valLabely="0" y="-452" x="-524" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-4" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-6: 
+<item endpinid="Arduino Uno-1-PB3" labelx="-16" Show_id="false" pointList="-508,-452,-508,-292,-356,-292" objectName="Connector-6" startpinid="Hd44780-2-PinEn" enodeid="Circ_eNode-7" valLabely="0" y="-452" x="-508" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-6" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-8: 
+<item endpinid="Arduino Uno-1-PD7" labelx="-16" Show_id="false" pointList="-468,-452,-468,-332,-356,-332" objectName="Connector-8" startpinid="Hd44780-2-dataPin4" enodeid="Circ_eNode-9" valLabely="0" y="-452" x="-468" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-8" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-10: 
+<item endpinid="Arduino Uno-1-PD6" labelx="-16" Show_id="false" pointList="-460,-452,-460,-340,-356,-340" objectName="Connector-10" startpinid="Hd44780-2-dataPin5" enodeid="Circ_eNode-11" valLabely="0" y="-452" x="-460" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-10" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-12: 
+<item endpinid="Arduino Uno-1-PD5" labelx="-16" Show_id="false" pointList="-452,-452,-452,-348,-356,-348" objectName="Connector-12" startpinid="Hd44780-2-dataPin6" enodeid="Circ_eNode-13" valLabely="0" y="-452" x="-452" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-12" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-14: 
+<item endpinid="Arduino Uno-1-PD4" labelx="-16" Show_id="false" pointList="-444,-452,-444,-356,-356,-356" objectName="Connector-14" startpinid="Hd44780-2-dataPin7" enodeid="Circ_eNode-15" valLabely="0" y="-452" x="-444" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-14" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-16: 
+<item endpinid="Arduino Uno-1-PD0" labelx="-16" Show_id="false" pointList="-476,-236,-476,-388,-356,-388" objectName="Connector-16" startpinid="KeyPad-3-Pin0" enodeid="Circ_eNode-17" valLabely="0" y="-236" x="-476" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-16" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-18: 
+<item endpinid="KeyPad-3-Pin1" labelx="-16" Show_id="false" pointList="-356,-380,-436,-380,-436,-220,-476,-220" objectName="Connector-18" startpinid="Arduino Uno-1-PD1" enodeid="Circ_eNode-19" valLabely="0" y="-380" x="-356" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-18" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-20: 
+<item endpinid="KeyPad-3-Pin2" labelx="-16" Show_id="false" pointList="-356,-372,-428,-372,-428,-204,-476,-204" objectName="Connector-20" startpinid="Arduino Uno-1-PD2" enodeid="Circ_eNode-21" valLabely="0" y="-372" x="-356" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-20" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-22: 
+<item endpinid="KeyPad-3-Pin3" labelx="-16" Show_id="false" pointList="-356,-364,-420,-364,-420,-188,-476,-188" objectName="Connector-22" startpinid="Arduino Uno-1-PD3" enodeid="Circ_eNode-23" valLabely="0" y="-364" x="-356" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-22" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-24: 
+<item endpinid="KeyPad-3-Pin6" labelx="-16" Show_id="false" pointList="-356,-316,-412,-316,-412,-164,-492,-164,-492,-172" objectName="Connector-24" startpinid="Arduino Uno-1-PB0" enodeid="Circ_eNode-25" valLabely="0" y="-316" x="-356" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-24" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-26: 
+<item endpinid="KeyPad-3-Pin5" labelx="-16" Show_id="false" pointList="-356,-308,-404,-308,-404,-156,-508,-156,-508,-172" objectName="Connector-26" startpinid="Arduino Uno-1-PB1" enodeid="Circ_eNode-27" valLabely="0" y="-308" x="-356" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-26" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+Connector-28: 
+<item endpinid="KeyPad-3-Pin4" labelx="-16" Show_id="false" pointList="-356,-300,-396,-300,-396,-148,-524,-148,-524,-172" objectName="Connector-28" startpinid="Arduino Uno-1-PB2" enodeid="Circ_eNode-29" valLabely="0" y="-300" x="-356" hflip="1" vflip="1" labelrot="0" rotation="0" id="Connector-28" itemtype="Connector" valLabRot="0" labely="-24" valLabelx="0"/>
+ 
+PlotterWidget-30: 
+<item maximumHeight="200" minimumWidth="200" sizeIncrement="" windowModified="false" enabled="true" maximized="false" accessibleName="" mouseTracking="false" minimumSize="" isActiveWindow="true" updatesEnabled="true" width="200" focusPolicy="0" focus="false" minimumSizeHint="" pos="" baseSize="" size="" styleSheet="" rect="" windowIconText="" sizePolicy="" toolTip="" x="0" acceptDrops="false" geometry="" palette="" minimumHeight="200" maximumSize="" statusTip="" whatsThis="" objectName="PlotterWidget-30" visible="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" childrenRect="" fullScreen="false" locale="" contextMenuPolicy="1" windowTitle="" cursor="" modal="false" windowIcon="" minimized="false" height="200" sizeHint="" accessibleDescription="" windowFilePath="" itemtype="Plotter" windowModality="0" frameGeometry="" y="0" maximumWidth="1000" normalGeometry="" layoutDirection="0" autoFillBackground="false" toolTipDuration="-1" inputMethodHints="0" MaxVolt="500" MinVolt="-500" childrenRegion="" frameSize="" windowOpacity="1"/>
+ 
+SerialPortWidget-31: 
+<item maximumHeight="170" minimumWidth="0" sizeIncrement="" windowModified="false" enabled="true" maximized="false" accessibleName="" mouseTracking="false" minimumSize="" isActiveWindow="true" updatesEnabled="true" width="313" focusPolicy="0" focus="false" minimumSizeHint="" pos="" baseSize="" size="" styleSheet="" rect="" windowIconText="" sizePolicy="" SettingsProp=",0,3,0,0,0" toolTip="" x="0" acceptDrops="false" geometry="" palette="" minimumHeight="0" maximumSize="" statusTip="" whatsThis="" objectName="SerialPortWidget-31" visible="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" childrenRect="" fullScreen="false" locale="" contextMenuPolicy="1" windowTitle="Settings" cursor="" modal="false" windowIcon="" minimized="false" height="141" sizeHint="" accessibleDescription="" windowFilePath="" itemtype="SerialPort" windowModality="0" frameGeometry="" y="0" maximumWidth="450" normalGeometry="" layoutDirection="0" autoFillBackground="false" toolTipDuration="-1" inputMethodHints="0" childrenRegion="" frameSize="" windowOpacity="1"/>
+ 
+</circuit>
